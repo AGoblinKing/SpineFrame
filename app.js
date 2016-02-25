@@ -24,6 +24,10 @@ AFRAME.registerComponent('spine', {
       this.el.object3D.add(this.spineAnim);
       this.state = 'LOADING';
     }
+
+    if (this.state === 'READY') {
+      this.spineAnim.state.setAnimationByName(0, this.data.animation, true);
+    }
   },
 
   loaded() {
