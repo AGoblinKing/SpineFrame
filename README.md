@@ -1,7 +1,7 @@
 # Spine for A-Frame
 This library enables support for Spine in the a-frame framework as a component.
 
-# Quick Start
+## Quick Start
 Toss a reference to a-frame, the Spine runtime, and spine-frame into your HTML file.
 
 ```html
@@ -17,3 +17,6 @@ This enables the spine component. You can use this to reference spine assets.
   <a-entity spine="src: data/spineboy;animation: walk"></a-entity>
 </a-scene>
 ```
+
+## Example
+http://joshgalvin.github.io/SpineFrame/examples/basic.html
