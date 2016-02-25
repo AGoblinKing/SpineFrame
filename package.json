@@ -1,0 +1,20 @@
+{
+  "name": "spineframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spine-frame.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "watchify": "^3.7.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
