@@ -11,3 +11,9 @@ Toss a reference to a-frame, the Spine runtime, and spine-frame into your HTML f
 ```
 
 This enables the spine component. You can use this to reference spine assets.
+
+```html
+<a-scene> 
+  <a-entity spine="src: data/spineboy;animation: walk"></a-entity>
+</a-scene>
+```
