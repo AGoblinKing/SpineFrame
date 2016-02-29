@@ -8,8 +8,11 @@
   <script type="text/javascript" src="../dist/spine-frame.js"></script>
 </head>
 <body>
-  <a-scene>
+  <a-scene> 
     <a-entity spine="src: data/spineboy;animation: walk"></a-entity>
+    <a-entity position="-5 0 0" spine="src: data/skeleton;animation: walk test"></a-entity>
+    <a-entity position="5 0 0" spine="src: data/hero;animation: Run"></a-entity>
+    <a-entity position="0 0 -5" spine="src: data/goblins;animation: walk"></a-entity>
   </a-scene>
 </body>
 </html>
